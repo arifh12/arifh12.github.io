@@ -1,6 +1,6 @@
 import { IconType } from "react-icons"
 import { FaJava } from "react-icons/fa"
-import { SiApachekafka, SiCsharp, SiCss3, SiDocker, SiFirebase, SiGit, SiHtml5, SiJavascript, SiJenkins, SiK6, SiKotlin, SiKubernetes, SiLaravel, SiMicrosoftazure, SiMysql, SiOracle, SiPhp, SiPlaywright, SiPostgresql, SiPython, SiR, SiReact, SiRedis, SiSpring, SiSpringboot, SiTailwindcss, SiTypescript } from "react-icons/si"
+import { SiApachekafka, SiCsharp, SiCss3, SiDocker, SiFirebase, SiGit, SiHtml5, SiJavascript, SiJenkins, SiK6, SiKotlin, SiKubernetes, SiLaravel, SiMicrosoftazure, SiMysql, SiOracle, SiPhp, SiPlaywright, SiPostgresql, SiPython, SiR, SiReact, SiRedis, SiSpring, SiTailwindcss, SiTypescript } from "react-icons/si"
 
 type Skill = {
   name: string,

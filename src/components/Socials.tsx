@@ -1,9 +1,7 @@
 import { Button, Link } from "@nextui-org/react";
 import socials from "../constants/socials";
 
-type Props = {};
-
-const Socials = (props: Props) => {
+const Socials = () => {
 	return (
 		<div className="flex gap-4 flex-wrap">
 			{socials.map((social, i) => (

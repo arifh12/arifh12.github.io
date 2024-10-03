@@ -1,5 +1,4 @@
 import { FaGraduationCap } from "react-icons/fa";
-import heroImage from "../assets/hero-image.png";
 import { MdWorkspacePremium } from "react-icons/md";
 import HighlightSpan from "./HighlightSpan";
 import RevealContainer from "./RevealContainer";

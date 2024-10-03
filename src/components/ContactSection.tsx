@@ -1,11 +1,8 @@
-import React from "react";
 import Socials from "./Socials";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Reveal from "./Reveal";
 
-type Props = {};
-
-const ContactSection = (props: Props) => {
+const ContactSection = () => {
 	const container = {
 		hidden: { opacity: 0 },
 		show: {

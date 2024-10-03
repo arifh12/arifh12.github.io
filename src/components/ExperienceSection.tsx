@@ -1,6 +1,4 @@
 import { Accordion, AccordionItem, Avatar } from "@nextui-org/react";
-import flagstarBankLogo from "../assets/flagstar-bank-logo.svg";
-import gmLogo from "../assets/gm-logo.svg";
 import experienceData from "../constants/experience";
 import RevealContainer from "./RevealContainer";
 

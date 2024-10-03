@@ -2,8 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { MdLaunch } from "react-icons/md";
 import { Chip } from "@nextui-org/react";
 import { Project } from "../constants/projects";
-import RevealContainer from "./RevealContainer";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 type Props = Project & { fadeDirection: string };
 
