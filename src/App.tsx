@@ -1,19 +1,25 @@
 import { NextUIProvider } from "@nextui-org/react";
 import Header from "./components/Header";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import SkillsSection from "./components/SkillsSection";
+import ExperienceSection from "./components/ExperienceSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
 
 function App() {
 	return (
 		<NextUIProvider>
 			<NextThemesProvider attribute="class" defaultTheme="dark">
 				<Header />
-				<main className="flex flex-col m-auto max-w-screen-lg" style={{"marginInline":"auto"}}>
-					<Hero/>
-					<About />
-					<Skills />
+				<main className="flex flex-col mx-auto max-w-screen-lg">
+					<HeroSection/>
+					<AboutSection />
+					<ExperienceSection />
+					<SkillsSection />
+					<ProjectsSection />
+					<ContactSection />
 				</main>
 			</NextThemesProvider>
 		</NextUIProvider>
