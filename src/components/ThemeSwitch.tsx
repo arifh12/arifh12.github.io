@@ -4,9 +4,12 @@ import { useEffect, useState } from "react";
 import { BsMoon, BsSun } from "react-icons/bs";
 
 const ThemeSwitch = () => {
-	const [darkMode, setDarkMode] = useState(
-		localStorage.getItem("theme") == "dark"
-	);
+	const getInitialTheme = () => {
+		const storedTheme = localStorage.getItem("theme")
+		return storedTheme ? storedTheme === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+	}
+
+	const [darkMode, setDarkMode] = useState(getInitialTheme);
 	const { setTheme } = useTheme();
 
 	useEffect(() => {

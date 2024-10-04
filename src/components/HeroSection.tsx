@@ -52,7 +52,7 @@ const HeroSection = () => {
 			<Reveal>
 				<Socials />
 			</Reveal>
-			<div className="absolute left-0 right-0 bottom-4 w-fit mx-auto hover:scale-110 transition ease-in-out cursor-pointer text-gray-500">
+			<div className="invisible sm:visible absolute left-0 right-0 bottom-4 w-fit mx-auto hover:scale-110 transition ease-in-out cursor-pointer text-gray-500">
 				<Reveal>
 					<MdOutlineKeyboardDoubleArrowDown
 						size={48}
