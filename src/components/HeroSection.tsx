@@ -45,7 +45,7 @@ const HeroSection = () => {
 				<Reveal>
 					<p className="">🏡 Based in Warren, Michigan</p>
 					<p className="">
-						💻 Currently working at <HighlightSpan>General Motors</HighlightSpan>
+						💻 Currently <HighlightSpan>seeking the next challenge</HighlightSpan>
 					</p>
 				</Reveal>
 			</div>
