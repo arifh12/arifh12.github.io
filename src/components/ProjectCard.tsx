@@ -46,11 +46,11 @@ const ProjectCard = (props: Props) => {
 					<div className="flex justify-between text-xl font-semibold">
 						<h3 className="">{props.title}</h3>
 						<div className="flex gap-3 align-middle text-2xl">
-							<a href={props.githubUrl} target="_blank">
+							<a href={props.githubUrl} target="_blank" aria-label="GitHub repository">
 								<FaGithub className="hover:text-primary cursor-pointer" />
 							</a>
 							{props.demoUrl && (
-								<a href={props.demoUrl} target="_blank">
+								<a href={props.demoUrl} target="_blank" aria-label="Live demo">
 									<MdLaunch className="hover:text-primary cursor-pointer" />
 								</a>
 							)}
