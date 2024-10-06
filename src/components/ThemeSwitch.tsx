@@ -20,7 +20,7 @@ const ThemeSwitch = () => {
 
 	return (
 		<div className="">
-			<Button onClick={() => setDarkMode(prev => !prev)} isIconOnly radius="full" size="sm" variant="light">
+			<Button onClick={() => setDarkMode(prev => !prev)} isIconOnly radius="full" size="sm" variant="light" aria-label="Toggle Dark Mode">
 				{darkMode ? <BsMoon size={20} /> : <BsSun size={20} /> }
 			</Button>
 		</div>

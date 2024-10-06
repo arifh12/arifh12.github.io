@@ -41,7 +41,7 @@ const ProjectCard = (props: Props) => {
 				viewport={{ once: true }}
 				className="border-small border-default-100 rounded-xl overflow-hidden"
 			>
-				<img src={props.image} />
+				<img src={props.image} alt={`Cover image of ${props.title}`}/>
 				<div className="p-4">
 					<div className="flex justify-between text-xl font-semibold">
 						<h3 className="">{props.title}</h3>
