@@ -22,7 +22,7 @@ const SkillsSection = () => {
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: true }}
-					className="flex flex-wrap justify-center gap-3"
+					className="flex flex-wrap justify-start sm:justify-center gap-3"
 				>
 					{skills.map((element, i) => (
 						<SkillChip key={i} name={element.name} icon={element.icon} />

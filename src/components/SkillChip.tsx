@@ -7,7 +7,7 @@ function SkillChip({name, icon: IconType}: Props) {
   return (
     
     <Reveal>
-      <div className="text-xl flex gap-2 items-center px-4 py-2 rounded-lg bg-default-50">
+      <div className="text-sm sm:text-lg flex gap-2 items-center px-4 py-2 rounded-lg bg-default-50">
         <IconType />
         <p className="">{name}</p>
       </div>
