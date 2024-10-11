@@ -1,50 +1,35 @@
-# React + TypeScript + Vite
+# arifh12.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Build Status](https://github.com/arifh12/arifh12.github.io/actions/workflows/cicd.yml/badge.svg)](https://github.com/arifh12/arifh12.github.io/actions)
 
-Currently, two official plugins are available:
+Welcome to my personal website, hosted on GitHub Pages. This repository contains the source code for my portfolio, which highlights my professional journey, technical skills, and projects as a software engineer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **About Me**: Overview of my background and interests.
+- **Skills**: A detailed breakdown of my technical skills, including frontend, backend, and DevOps expertise.
+- **Experience**: My professional work experience and relevant roles.
+- **Projects**: A showcase of the projects I've worked on, demonstrating my development skills.
+- **Contact**: Information for getting in touch with me.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **Frontend**: React, TypeScript, NextUI, Tailwind CSS, HTML, CSS
+- **CI/CD**: [GitHub Actions](https://github.com/arifh12/arifh12.github.io/actions)
+- **Hosting**: GitHub Pages
+- **Custom Domain**: [arifhasan.dev](https://arifhasan.dev)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## How to Use
+
+To clone and run the website locally:
+
+```bash
+git clone https://github.com/arifh12/arifh12.github.io.git
+npm install
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Contributions
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+While this repository primarily serves as my personal portfolio, feel free to fork the repo and submit pull requests for improvements or suggestions.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
