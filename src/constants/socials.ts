@@ -26,7 +26,7 @@ const socials : Social[] = [
   {
     name: "Resume",
     icon: FaFileDownload,
-    url: "https://1drv.ms/w/c/34f9347078febfc1/EchIOoUHOu1NkR1huvnMefEBL44gHhCMKLjF5Bxe87BwrA?e=4ToVAc"
+    url: "https://1drv.ms/f/c/34f9347078febfc1/EoyRlr6C7apNjnG2kPpj6PABMvE81i3PDsip2ILU84vIqQ?e=WJRMuq"
   }
 ]
 
