@@ -16,7 +16,7 @@
       company: "General Motors",
       companyImage: gmLogo,
       start: "June 2022",
-      end: "August 2024",
+      end: "September 2024",
       responsibilities: [
         "Designed and developed RESTful APIs across 5 microservices using Java, Kotlin, and the Spring Boot framework.",
         "Implemented internal UI application using React, TypeScript, TailwindCSS, and DaisyUI.",
