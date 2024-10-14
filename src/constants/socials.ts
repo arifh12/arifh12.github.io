@@ -31,3 +31,4 @@ const socials : Social[] = [
 ]
 
 export default socials
+export const githubUrl = socials[0].url
