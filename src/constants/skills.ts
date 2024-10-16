@@ -53,7 +53,11 @@ const skills : Skill[] = [
     icon: SiSpring
   },
   {
-    name: "React/React Native",
+    name: "React",
+    icon: SiReact
+  },
+  {
+    name: "React Native",
     icon: SiReact
   },
   {
