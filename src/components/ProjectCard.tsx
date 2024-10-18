@@ -39,7 +39,7 @@ const ProjectCard = (props: Props) => {
 				initial="hidden"
 				whileInView="show"
 				viewport={{ once: true }}
-				className="border-small border-default-100 rounded-xl overflow-hidden"
+				className="border-small border-default-100 rounded-xl overflow-hidden h-full"
 			>
 				<img src={props.image} alt={`Cover image of ${props.title}`}/>
 				<div className="p-4">
