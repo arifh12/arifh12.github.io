@@ -1,6 +1,6 @@
 # arifh12.github.io
 
-[![Build Status](https://github.com/arifh12/arifh12.github.io/actions/workflows/cicd.yml/badge.svg)](https://github.com/arifh12/arifh12.github.io/actions)
+[![Build Status](https://github.com/arifh12/arifh12.github.io/actions/workflows/cicd.yml/badge.svg)](https://github.com/arifh12/arifh12.github.io/actions) [![CodeQL](https://github.com/arifh12/arifh12.github.io/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/arifh12/arifh12.github.io/actions/workflows/github-code-scanning/codeql)
 
 Welcome to my personal website, hosted on GitHub Pages. This repository contains the source code for my portfolio, which highlights my professional journey, technical skills, and projects as a software engineer.
 
