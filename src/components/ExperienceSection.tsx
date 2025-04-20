@@ -7,7 +7,7 @@ const ExperienceSection = () => {
 		<section id="experience" className="px-4 pt-20">
 			<h2 className="text-3xl font-semibold">💼 Experience</h2>
 			<RevealContainer>
-				<Accordion selectionMode="multiple">
+				<Accordion selectionMode="multiple" hideIndicator={true} isDisabled={true} itemClasses={{base: "opacity-100" }}>
 					{experienceData.map((exp, i) => (
 						<AccordionItem
 							key={i}
@@ -23,13 +23,7 @@ const ExperienceSection = () => {
 							}
 							subtitle={`${exp.start} - ${exp.end}`}
 							title={`${exp.position} @ ${exp.company}`}
-						>
-							<ul className="ms-14 list-[square]">
-								{exp.responsibilities.map((resp, i) => (
-									<li key={i}>{resp}</li>
-								))}
-							</ul>
-						</AccordionItem>
+						/>
 					))}
 				</Accordion>
 			</RevealContainer>
