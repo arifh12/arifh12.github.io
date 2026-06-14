@@ -1,6 +1,9 @@
 import { IconType } from "react-icons"
 import { FaJava } from "react-icons/fa"
-import { SiApachekafka, SiCsharp, SiCss3, SiDocker, SiFirebase, SiGit, SiHtml5, SiJavascript, SiJenkins, SiK6, SiKotlin, SiKubernetes, SiLaravel, SiMicrosoftazure, SiMysql, SiOracle, SiPhp, SiPlaywright, SiPostgresql, SiPython, SiR, SiReact, SiRedis, SiSpring, SiTailwindcss, SiTypescript } from "react-icons/si"
+import { SiApachekafka, SiCss, SiDocker, SiFirebase, SiGit, SiHtml5, SiJavascript, SiJenkins, SiK6, SiKotlin, SiKubernetes, SiLaravel, SiMysql, SiPhp, SiPostgresql, SiPython, SiR, SiReact, SiRedis, SiSpring, SiTailwindcss, SiTypescript } from "react-icons/si"
+import { FaMasksTheater } from "react-icons/fa6";
+import { TbBrandCSharp, TbBrandAzure } from "react-icons/tb";
+import { GrOracle } from "react-icons/gr";
 
 type Skill = {
   name: string,
@@ -18,7 +21,7 @@ const skills : Skill[] = [
   },
   {
     name: "CSS",
-    icon: SiCss3
+    icon: SiCss
   },
   {
     name: "JavaScript",
@@ -42,7 +45,7 @@ const skills : Skill[] = [
   },
   {
     name: "C#",
-    icon: SiCsharp
+    icon: TbBrandCSharp
   },
   {
     name: "PHP",
@@ -70,7 +73,7 @@ const skills : Skill[] = [
   },
   {
     name: "Playwright",
-    icon: SiPlaywright
+    icon: FaMasksTheater
   },
   {
     name: "K6",
@@ -86,7 +89,7 @@ const skills : Skill[] = [
   },
   {
     name: "Oracle",
-    icon: SiOracle
+    icon: GrOracle
   },
   {
     name: "MySQL",
@@ -110,7 +113,7 @@ const skills : Skill[] = [
   },
   {
     name: "Azure",
-    icon: SiMicrosoftazure
+    icon: TbBrandAzure
   },
   {
     name: "Jenkins",
